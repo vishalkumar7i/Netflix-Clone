@@ -1,0 +1,449 @@
+*{
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color:white;
+}
+
+
+#firstbackground{
+height: 700px;
+background-image: linear-gradient(rgba(0,0,0,.6),rgba(0, 0, 0, .6)), url("IN-en-20230703-popsignuptwoweeks-perspective_alpha_website_large\ \(1\).jpg");
+background-size: cover;
+border-bottom: 8px solid rgb(35, 33, 33);
+display: flex;
+flex-direction:column;
+
+}
+#firstbackgroundfirst{
+    height: 86px;
+    width: 1100px;
+    display: flex;
+    margin:0 auto;
+   }
+#firstbackgroundfirst img{
+    height: 43px;
+    width: 148px;
+    background-color: transparent;
+    margin:auto 0;
+
+} 
+#firstbackgroundfirst select{
+    height: 32px;
+    width: 126px;
+    background-color: transparent;
+    border:3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    margin-left:650px;
+    border-radius: 4px;
+}
+#firstbackgroundfirst a{
+    text-decoration: none;
+    font-weight: 600;
+}
+#anchoroffirst{
+    height: 32px;
+    width: 77px;
+    background-color: #e50914;
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-left: 30px;
+}
+
+#firstbackgroundsecond{
+    height: 235px;
+    width: 870px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    margin-top: 200px;
+    flex-direction:column;
+}
+#firstbackgroundsecondpart {
+    height: 102px;
+    width: 910px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+#firstbackgroundsecondpart p {
+    font-size: 20px;
+    padding: 15px 0;
+}
+#firstbackgroundsecondpart h1{
+    font-size: 45px;
+}
+#firstbackgroundsecondpart input {
+    height: 56px;
+    width:550px;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+#firstbackgroundthredpart input::placeholder {
+    padding-left: 20px;
+    font-size: 1.3em;
+    color: #ffffffb3;
+}
+
+#firstbackgroundthredpart {
+    height: 60px;
+    width: 500px;
+    margin: 2px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#firstbackgroundthredpart a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.secondbackground{
+    height: 510px;
+    background-color: black;
+    border-bottom: 8px solid rgb(35, 33, 33);
+}
+.thredbackground{
+    height: 910px;
+    background-color: black;
+    border-bottom: 8px solid rgb(35, 33, 33);
+    text-align: center;
+}
+.thredbackground h1{
+   padding-top: 30px;
+   padding-bottom: 15px;
+    font-size: 50px;
+}
+#tv {
+    display: flex;
+
+}
+
+#tv2 {
+    height: 359px;
+    width: 479px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* margin-right: 0; */
+    padding-bottom: 20px;
+
+}
+#tv img{
+    height: 359px;
+    width: 479px;
+}
+
+#tv1 {
+    height: 359px;
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+    margin-right: 0;
+
+}
+
+#tv1 h1 {
+    font-size: 45.8px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-top: 100px;
+}
+
+#tv1 p {
+    font-size: 24px;
+}
+
+#girl {
+    display: flex;
+}
+
+#girl1 {
+    height: 359px;
+    width: 479px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-right: 0;
+    
+}
+#girl1 img{
+    height: 300px;
+    width: 420px;
+}
+#girl2 {
+    height: 359px;
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* margin-left:30px; */
+
+}
+
+#girl2 h1 {
+    font-size: 45.8px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
+#girl2 p {
+    font-size: 24px;
+}
+#appletv {
+    display: flex;
+
+}
+
+#appletv2 {
+    height: 359px;
+    width: 479px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* margin-right: 0; */
+
+}
+
+
+#appletv1 {
+    height: 359px;
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+    margin-right: 0;
+
+}
+#appletv img{
+    height: 359px;
+    width: 479px;
+}
+
+#appletv1 h1 {
+    font-size: 45.8px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-top: 100px;
+}
+
+#appletv1 p {
+    font-size: 24px;
+}
+#childrenandproto{
+    display: flex;
+    }
+#childrenandproto1{
+    height: 359px;
+    width:479px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin:auto;
+    margin-right: 0;
+   
+}
+#childrenandproto2 {
+    height: 359px;
+    width: 510px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    /* margin-left:30px; */
+    
+}
+#childrenandproto2 h1{
+    font-size:45.8px;
+    padding-bottom: 20px;
+    padding-right:10px;
+}
+#childrenandproto2 p{
+    font-size: 24px;
+}
+
+section{
+    height: 85px;
+    width:970px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #2d2d2d;
+    margin:8px auto;
+   }
+section span{
+    font-size:35px;
+    text-align:left;
+    padding-top:25px;
+    margin-left:24px;
+    padding-bottom: 35px;
+             }
+.plus1{
+    
+    padding-left: 550px;
+    font-size:50px;
+    }
+.plus2 {
+    padding-left: 340px;
+    font-size: 50px;
+}
+.plus3 {
+    padding-left: 485px;
+    font-size: 50px;
+}
+.plus4 {
+    padding-left: 525px;
+    font-size: 50px;
+}
+.plus5 {
+    padding-left: 350px;
+    font-size: 50px;
+}
+.plus6 {
+    padding-left: 430px;
+    font-size: 50px;
+}
+section summary{
+    list-style: none;
+}
+#thredbackgroundsecondpart{
+    height: 102px;
+    width:910px;
+    margin:40px auto;
+    text-align: center;
+}
+#thredbackgroundsecondpart p{
+    font-size:20px;
+    padding:15px 0;
+}
+#thredbackgroundsecondpart input{
+    height: 56px;
+    width: 376px;
+    border:1px solid whitesmoke; 
+    border-radius: 3px; 
+    background-color: black;
+}
+#thredbackgroundsecondpart input::placeholder{
+  padding-left: 20px;
+  font-size:1.3em;
+  color:#ffffffb3;
+}
+#thredbackgroundtherdpart {
+    height:60px;
+    width:500px;
+    margin:2px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#thredbackgroundtherdpart a{
+    text-decoration: none;
+    font-size:25px;
+}
+ a div{
+    height:56px;
+    width:200px;
+    background-color: #e50914;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    border-radius:3px;
+        }
+
+#footerorlast {
+    height: 400px;
+    display: flex;
+    /* /justify-content:space-evenly; */
+    background-color: black;
+}
+#linklist{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    margin:10px auto;
+}
+#linklist1 {
+    height: 240px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+#linklist2 {
+    height: 200px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+#linklist3 {
+    height: 200px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 150px;
+
+}
+
+#linklist a {
+    color: #ffffffb3;
+    font-size: 14px;
+}
+
+p>a {
+    text-decoration: none;
+}
+
+#linklist1>p {
+    color: #ffffffb3;
+    position: relative;
+    bottom: 14px;
+    font-size: 16px;
+}
+
+#footerorlast a:active {
+    color: #e50914;
+}
+#copyright{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    }
+#copyright h2{
+    color: #ffffffb3;
+}
